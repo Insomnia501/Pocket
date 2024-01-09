@@ -1,0 +1,16 @@
+app: # 应用基本配置
+  env: local # 环境名称
+  port: 8888 # 服务监听端口号
+  app_name: pocket # 应用名称
+  app_url: http://localhost # 应用域名
+contract:
+  alchemy_rpc_url: https://polygon-mumbai.g.alchemy.com/v2/msaJegrQLaLoy3szqaYUebeTejvKLeJO
+  vipcard_contract_abi: ./public/contracts/VIPCard.json
+  vipcard_name: VIPCard#1
+  vipcard_symbol: VIP
+  erc6551_registry_address: 0xba2a5dff82478b912d05c1db856e56264fd3cc4f
+  vipcard_account_address: 0xc48de7626F5BfB5d9C276B07f13a3995105B4233
+  private_key: 4a176cf43917707a501fec6950a5b3602ba057cfde5223f82524281ee30a92bb
+  chain_id: 80001
+
+
